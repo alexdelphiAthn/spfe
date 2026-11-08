@@ -1,0 +1,4 @@
+# Conservar los bytes y hashes de originales y fuentes en cada plataforma.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Los originales de terceros conservan incluso sus espacios finales.
+docs/spfe/** -whitespace

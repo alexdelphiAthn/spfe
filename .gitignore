@@ -1,0 +1,17 @@
+﻿/build/
+/.venv/
+__pycache__/
+*.pyc
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.dsk
+*.identcache
+*.local
+*.log
+*.pfx
+*.p12
+*.key
+*.pem

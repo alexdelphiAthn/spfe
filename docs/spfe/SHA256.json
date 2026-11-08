@@ -1,0 +1,777 @@
+﻿[
+  {
+    "archivo": "A1-Proyecto-OM-FE.pdf",
+    "bytes": 682281,
+    "sha256": "4018b3ca6711dae942f2ddd335179f7ebcce009df7334db498844379634ae451"
+  },
+  {
+    "archivo": "A2-Proyecto-OM-FE.pdf",
+    "bytes": 331359,
+    "sha256": "a28dc3dae7a8c149fff5bb7099305bfd1486554c2b505507cdd0ae0452bccf0b"
+  },
+  {
+    "archivo": "boe/Orden_HAC_1028_2026.html",
+    "bytes": 268030,
+    "sha256": "42bb4823138dfed03460a83b31755e05298fbec0d808c85dfdff60c24a26f443"
+  },
+  {
+    "archivo": "boe/Orden_HAC_1028_2026.pdf",
+    "bytes": 395590,
+    "sha256": "9de5f4433dc4216506f79a26a50bed17dc76244998d8c5efe48024781a2cf653"
+  },
+  {
+    "archivo": "boe/RD_238_2026.pdf",
+    "bytes": 340811,
+    "sha256": "511534de22ab02b9c17e4b7d335c4184d671f5c2f702ca8e111eafe59047f833"
+  },
+  {
+    "archivo": "CatalogoServicios.pdf",
+    "bytes": 513144,
+    "sha256": "be7ea2edf377a396ab031dcfe7991f437516b21d23dd9b40e70e24551e987eaf"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/BIS3_Invoice_negativ.XML",
+    "bytes": 5958,
+    "sha256": "8563b0537944baa16b85980e6bf95cb95c22df71cde946952d22c2a90e7315a7"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/BIS3_Invoice_positive.XML",
+    "bytes": 5949,
+    "sha256": "97f41a92907521c354945658707ca1cd4209b31489399051e75797ab59c4851b"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/FT G2G_TD01 con Allegato, Bonifico e Split Payment.xml",
+    "bytes": 3291892,
+    "sha256": "b789ae1942994ac2cf4aba8387023c36e815906e2938fafaabd2e052eede6806"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/guide-example1.xml",
+    "bytes": 21376,
+    "sha256": "8cf298f82ccc0b1e0a3fd57d07dd39f4c174ee6739e147020f22c8aebb364ca5"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/guide-example2.xml",
+    "bytes": 19627,
+    "sha256": "7c073be56039d35d1caad07ecc407ff85910925b206a59a92fa5e3048bb891b5"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/guide-example3.xml",
+    "bytes": 6490,
+    "sha256": "488de75282bc39b4a556b9ac8b704d04f4de07aefc5e5f9a52b8ed719848929f"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/issue116.xml",
+    "bytes": 10490,
+    "sha256": "5de9cf220c7101735a337c99697a26758d449f59a13cc6ac6c9c3e9fd8749810"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/sample-discount-price.xml",
+    "bytes": 5405,
+    "sha256": "b12ea8b5c01e3e5b251880473d30c8ad2b74e18c7a84fbdde94076f570905a4f"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-creditnote1.xml",
+    "bytes": 4935,
+    "sha256": "911d7ac2cb4fa72d21331c76914468e7d94eda03629e0def75c64ab18e3e9dce"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example1.xml",
+    "bytes": 21501,
+    "sha256": "507a03e3c45761c435cf81e4a32097bedb3cb9b724572a9989028a4dfc2c7b51"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example10.xml",
+    "bytes": 21493,
+    "sha256": "4536beda542547229ea93976cce538a182fb48a20428c9322f487bf10d213a9e"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example2.xml",
+    "bytes": 20750,
+    "sha256": "1137eccac470c19b67706d6d9c568450ebb9e5596487e73f50f5c8164fc13506"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example3.xml",
+    "bytes": 7414,
+    "sha256": "535c56d810c19776f18083df792e4ebad0c93a71dec38c62b6812de07a4ec5ed"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example4.xml",
+    "bytes": 8191,
+    "sha256": "e7ba00c5d844de27d32a4cab259844260b2574563334ea5c6a520d18eb3397f7"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example5.xml",
+    "bytes": 17922,
+    "sha256": "6e27a93287a9866cebb2560d0028602a0984f1402b5b577332ce43e99bb83098"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example6.xml",
+    "bytes": 5679,
+    "sha256": "60623574b3ed54621f0d350150b5b148653e6b6f7f286921d948215c8699098d"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example7.xml",
+    "bytes": 6674,
+    "sha256": "2cde5675a74214cb995ed99830a1150b00fa14758ebc76ac1f9786bd28b49039"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example8.xml",
+    "bytes": 17732,
+    "sha256": "ebb536db6e7578a5bc51928420c1c04a6d04eb808d2bc2d3d30eb6c89c025f7e"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/examples/ubl-tc434-example9.xml",
+    "bytes": 5790,
+    "sha256": "3085f61ef73cde90e1d6ea020c6991b365729c1e3f0409388ae61d1c9a747d1e"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/LICENSE.txt",
+    "bytes": 14065,
+    "sha256": "281eed0c9d46e36be532978deb16e6351025c6ff32d97fe24e8cb190e4e0d923"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/abstract/EN16931-model.sch",
+    "bytes": 52494,
+    "sha256": "949095661fada023665f5d8589d85cc0543f8c50d47c0b214616622b05b3eb72"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/abstract/EN16931-syntax.sch",
+    "bytes": 123191,
+    "sha256": "e1bb698a2cae0ea492d15256f404841abd449c2d55df77f59b7b9050eed123b9"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/codelist/EN16931-UBL-codes.sch",
+    "bytes": 33213,
+    "sha256": "933c2ec261f7fc219aa0c7fa9f0b67c7fe156600b6fbb9a0eb045f583d173bd9"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/EN16931-UBL-validation.sch",
+    "bytes": 1872,
+    "sha256": "210bcd857ff342841e341b6e27ab9b0bb806e2a2ae4235451d57bc8ab541f75a"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/preprocessed/EN16931-UBL-validation-preprocessed.sch",
+    "bytes": 311147,
+    "sha256": "eb27995ba7bace330475a0afd54a21bb0ebb050d55774949d5e10f65ecef7b95"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/UBL/EN16931-UBL-model.sch",
+    "bytes": 72855,
+    "sha256": "895b0e412bf16d13ca22530844937ca9d93511ca587c2d12dbef4a6b2f37b0ff"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/schematron/UBL/EN16931-UBL-syntax.sch",
+    "bytes": 78430,
+    "sha256": "6179091ec82fdf131cf3ba6d71aa47d9c5215a2bbcc4616b46f278a759cc05b5"
+  },
+  {
+    "archivo": "en16931-ubl-1.3.17/xslt/EN16931-UBL-validation.xslt",
+    "bytes": 898710,
+    "sha256": "fc4e6cfa8596bba0c2abd19038a98960c6ee9fc1f44566787c115efd4f4aca7c"
+  },
+  {
+    "archivo": "factura.xml",
+    "bytes": 5295,
+    "sha256": "d4bbdf58012a5b29e91c4efb3105483c0e07785fb2472192049aa6c4ee2d5099"
+  },
+  {
+    "archivo": "FormatosEntradaSalida.pdf",
+    "bytes": 940906,
+    "sha256": "b612f5fec11e8b19c45535aef1d2e7e25df443ba5324378f85f840049713f0df"
+  },
+  {
+    "archivo": "SendInvoicesSOAP.zip",
+    "bytes": 4911,
+    "sha256": "7a82a20785e2f1a01af11081d61486bb9fb3b99e4296b3084dc7914edd0a2e32"
+  },
+  {
+    "archivo": "ubl-2.5/common/BDNDR-CCTS_CCT_SchemaModule-1.1.xsd",
+    "bytes": 45268,
+    "sha256": "dd546e4809df86b6445589f69f0d6c9df162840ae386574ddfc1da7638103e15"
+  },
+  {
+    "archivo": "ubl-2.5/common/BDNDR-UnqualifiedDataTypes-1.1.xsd",
+    "bytes": 75029,
+    "sha256": "3d45eb53c7f8b627972d2c4b591c0e9e83a8a9b44a7e6809f39560089ce062bd"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-CommonAggregateComponents-2.5.xsd",
+    "bytes": 3350537,
+    "sha256": "a7920f3b2c4f32ddde8b188d8180d38f9edc209c0cd4bae6df097f3337ac940e"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-CommonBasicComponents-2.5.xsd",
+    "bytes": 306906,
+    "sha256": "0eb331350127ba9f27b66ab22b33c7b8b4d4762e9457152fb5cf09b88653dca6"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-CommonExtensionComponents-2.5.xsd",
+    "bytes": 9524,
+    "sha256": "ede1e6cec66162775f7d92aa9ecd3208a170b73e331f4db04900f51f261f6444"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-CommonSignatureComponents-2.5.xsd",
+    "bytes": 5722,
+    "sha256": "8581fbd59019423c7aa00291f9a8db39c03640766305cc9271a30cd83b947f68"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-ExtensionContentDataType-2.5.xsd",
+    "bytes": 4906,
+    "sha256": "f74805326adf753d8ce0150522fba596e21fe002e2f1ca2f213a9b71c3c62c6a"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-QualifiedDataTypes-2.5.xsd",
+    "bytes": 7109,
+    "sha256": "52a7fd648272db5bf258d6270507600a8266dc61cded4fed7b885014cdb113b0"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-SignatureAggregateComponents-2.5.xsd",
+    "bytes": 7487,
+    "sha256": "3235fbc015ba4f279a030ebf68618a2f594078a309ffc9f4ee351191b4536249"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-SignatureBasicComponents-2.5.xsd",
+    "bytes": 4215,
+    "sha256": "76a6fe0369bfe1f3ffd583a94544358758573b14c6ba1aaadf3076c2cdeea012"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-XAdES01903v132-201601-2.5.xsd",
+    "bytes": 23956,
+    "sha256": "80a146fdac0b346a1d2cb4c9a36040c861c31795a0483ce918361892e180ecfc"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-XAdES01903v141-201601-2.5.xsd",
+    "bytes": 3588,
+    "sha256": "bfa58e47a20fcb915e6e04c38100f4c60b84408447827e13aa9fd6894c9b300d"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-xmldsig-core-schema-2.5.xsd",
+    "bytes": 10798,
+    "sha256": "533b3a510c301348c42962bd2c2cf21f6dcd80dc4a79bcb15c612ed4fd0932e5"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-xmldsig1-schema-2.5.xsd",
+    "bytes": 1362,
+    "sha256": "7126ab85bf77894cfbb832747c7c9c5aed9ab89e1b00bda504ce7ceab3437cb8"
+  },
+  {
+    "archivo": "ubl-2.5/common/UBL-xmldsig11-schema-2.5.xsd",
+    "bytes": 5062,
+    "sha256": "ab22ca3e97591782d6c158fad8817769620019882d55fbebc8a884518ec902d6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ApplicationResponse-2.5.xsd",
+    "bytes": 21729,
+    "sha256": "dfbbf927e0285cd5367899049925dcea631c79ee7fb1708302ff9f4e361e4848"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-AttachedDocument-2.5.xsd",
+    "bytes": 25103,
+    "sha256": "c6df803720a884e10eeca96ab4514299c809001dd048ecbccbbfa0a2467a276a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-AwardedNotification-2.5.xsd",
+    "bytes": 25505,
+    "sha256": "e0a8f50bbb490b70b4d189c2e30c1ecfbfd8d5c04f6c9d08444b4f26608ca9f7"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-BillOfLading-2.5.xsd",
+    "bytes": 35885,
+    "sha256": "021fdbc61d8bb461daae07f784e9358a3266843c99cb57a1526e6585ce40e5f6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-BusinessCard-2.5.xsd",
+    "bytes": 24149,
+    "sha256": "b3b0322acb6eae6f613372e58376ee108945adf935cdc5c3b259d9508d44907a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-BusinessInformation-2.5.xsd",
+    "bytes": 33869,
+    "sha256": "1e8a1dd10bc73df1bb8931b0a6a8615bad8ddabaa6424b9b0b3ab6083956044d"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CallForTenders-2.5.xsd",
+    "bytes": 34831,
+    "sha256": "5d71dc3ab2ad35675bf92b65cd5be96409264c14fe10dd5a7f8fe5c4f0946a37"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Catalogue-2.5.xsd",
+    "bytes": 34880,
+    "sha256": "2a21c112372e37a6070dfe169ff7c76388d58346c7e650d16310cdd53971949c"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CatalogueDeletion-2.5.xsd",
+    "bytes": 28041,
+    "sha256": "bd9fb774bc564240480c150d11cac74d598a8a4027e7471fd431658e32de8a51"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CatalogueItemSpecificationUpdate-2.5.xsd",
+    "bytes": 33527,
+    "sha256": "c1adb99fcc1789ebc208c114ab749796a958cdc40c1a2e8a38c4ad91e1b70a82"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CataloguePricingUpdate-2.5.xsd",
+    "bytes": 32613,
+    "sha256": "73226a68ebeb60d4473e5f88fa0e12b843d5118e0353f82ebd94f682d894edb1"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CatalogueRequest-2.5.xsd",
+    "bytes": 34985,
+    "sha256": "a65d06a957aef319231d66682639febfc3fd89df60eaa8beaae91db487d1f56b"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CertificateOfOrigin-2.5.xsd",
+    "bytes": 25316,
+    "sha256": "9a2c4d8f17a1b500e9c4bc61761e764eb3e45aee86a9fa6f7127ea9099203bd6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CommonTransportationReport-2.5.xsd",
+    "bytes": 29257,
+    "sha256": "47c0ec50a891c49e721be64e190177d940c827c4a3934512aa32c96acb252f14"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ContractAwardNotice-2.5.xsd",
+    "bytes": 37943,
+    "sha256": "324445d72d09e3660ad40b906e343c7b8a2d65a3d1399ecf4bfd566c3778a195"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ContractNotice-2.5.xsd",
+    "bytes": 34261,
+    "sha256": "3fccca8019fc284b0a2b1d99db951369f8d820b2828256b484bd890c33286529"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-CreditNote-2.5.xsd",
+    "bytes": 69000,
+    "sha256": "d76b45dcef63348678293d93c2d3dbe2ca12c89f35dd7c3585f5d1d82d132311"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DebitNote-2.5.xsd",
+    "bytes": 70737,
+    "sha256": "f0a3b246719c779b24cb78d81374548260d9588e8b8676accd09d4f18b6a1a2c"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DeliveryNote-2.5.xsd",
+    "bytes": 30810,
+    "sha256": "6a581fe52c4c08addaba4be2846dae9e8bd61050f32ff4b7a279d08b986909b7"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DespatchAdvice-2.5.xsd",
+    "bytes": 33461,
+    "sha256": "ea6a30279270f627b719fde2d26523c849c883e743b5ab6ab012208ddbc87af7"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DigitalAgreement-2.5.xsd",
+    "bytes": 25616,
+    "sha256": "ae1226e9fe8e92ac89cc7111132c41efc934f085e89f192fff0d0118ad4d9ef4"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DigitalCapability-2.5.xsd",
+    "bytes": 20955,
+    "sha256": "3ed5eac692db431c438ec1f5536d567d5ae785fec459e3e13cdc7a59dbc95255"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DocumentStatus-2.5.xsd",
+    "bytes": 21051,
+    "sha256": "c71a23c4cf97bf57e1b048e318e1d2d25a73fc6c23be68514c90f7c64f387cd2"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-DocumentStatusRequest-2.5.xsd",
+    "bytes": 21236,
+    "sha256": "829630d22adbf0886270f73f1d3d9eeaf2df41bd11a4460d9f76de653e97a255"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Enquiry-2.5.xsd",
+    "bytes": 23113,
+    "sha256": "c69f1fa7811e5ec5de8c73d5ae190a0f8c485e3c0402443c66bb4b69973c48a2"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-EnquiryResponse-2.5.xsd",
+    "bytes": 22461,
+    "sha256": "c1384c691aa49c4ea89f32f737769eab7ef0c109d96b38bae909b86d5a2e6824"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ExceptionCriteria-2.5.xsd",
+    "bytes": 25636,
+    "sha256": "7830a35a0b15180b05e510a49eeda0c0ecd62fd8e6af84d2c2fae2aea4b9e787"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ExceptionNotification-2.5.xsd",
+    "bytes": 24773,
+    "sha256": "7975f0ad697c47597bb72cfbb6d32df59ae5d372ccf84e57db834eee23343710"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ExportCustomsDeclaration-2.5.xsd",
+    "bytes": 20913,
+    "sha256": "2758e564b03df8106ac885c65adbe914acbde9ff891092fbb29c2958dbb657fd"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ExpressionOfInterestRequest-2.5.xsd",
+    "bytes": 27193,
+    "sha256": "7a7a744193cae3f72e43fc1fe6653d8449183742411594f66638db98444e6b1e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ExpressionOfInterestResponse-2.5.xsd",
+    "bytes": 26131,
+    "sha256": "893e8b30bfce7db8b739031936827e249446fa6180d807fb92e33a765c0dbc80"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Forecast-2.5.xsd",
+    "bytes": 27026,
+    "sha256": "9b014b9aca6c975d8f9540959dda83bf7397b62dbbce286fd65086b27f41e332"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ForecastRevision-2.5.xsd",
+    "bytes": 27385,
+    "sha256": "cfe4cbf4732e2527d8232cb279dfde70e4314e876c31d00f7947609cdf6d645d"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ForwardingInstructions-2.5.xsd",
+    "bytes": 35544,
+    "sha256": "7670e5c230d39291181d8019d3089de3834eca1370caffab5051fcb6fc64a268"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-FreightInvoice-2.5.xsd",
+    "bytes": 56395,
+    "sha256": "454400f64c32df288c6a0de8c95697b5caece207dc15fe3df7364ccc0ee66700"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-FulfilmentCancellation-2.5.xsd",
+    "bytes": 30195,
+    "sha256": "247704e53355328352915dbb2103d913700b36fabf99ba4d74b35a45dc6ff75d"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-GoodsCertificate-2.5.xsd",
+    "bytes": 36793,
+    "sha256": "3fa5a6b00e81b4a1a18ac0c91787b4e22d6399cb05a754afc372710b7a9776b0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-GoodsItemItinerary-2.5.xsd",
+    "bytes": 26851,
+    "sha256": "3403b17cbdcc0669f33fe9fe087b6e5e3562c9139201c0983f7472385bec7c8e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-GoodsItemPassport-2.5.xsd",
+    "bytes": 34809,
+    "sha256": "caf7bdff8b956416bb0cb7cefdfc94d5e078a2b7300679213d23e4067b86310e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-GuaranteeCertificate-2.5.xsd",
+    "bytes": 29380,
+    "sha256": "3cabb5e3882b91fdbf4520e29ac71eb73c0ab3de80acec9148dfa69c45e7bdaf"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ImportCustomsDeclaration-2.5.xsd",
+    "bytes": 33101,
+    "sha256": "6a01c098b007b4cabb38cd553b27481bfe92dcbe995fe96ed2ab1675ee8a4be5"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-InstructionForReturns-2.5.xsd",
+    "bytes": 23672,
+    "sha256": "7aa270bc3e3b12108dfe9680d6db46f33f1277f158d924bae5aa6ddfcebad348"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-InventoryReport-2.5.xsd",
+    "bytes": 24716,
+    "sha256": "21c53ef93f96ba48c2317453eb7f7e9d2275bbb4d24614a34105f0842486518b"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Invoice-2.5.xsd",
+    "bytes": 70556,
+    "sha256": "e50f6641d2c1ee89cc73e116ed98a5d32c50da938a046e950a6ce6c16429192a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-InvoiceStatusRequest-2.5.xsd",
+    "bytes": 18598,
+    "sha256": "aff30e914cbd7226bcf8cf03f31c896f0b79a1d2b82ed4d0653cbc113ff3d63a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-InvoiceStatusResponse-2.5.xsd",
+    "bytes": 20617,
+    "sha256": "4e2188aa4881af4728827bc2e4e57b11a72b6742bc73b0e5f0f9b4592d82f2c0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ItemInformationRequest-2.5.xsd",
+    "bytes": 24793,
+    "sha256": "03e1fcd2db157c460ff7fb0efedc2560d5c29c4080234550d37bed027448895e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Manifest-2.5.xsd",
+    "bytes": 30463,
+    "sha256": "9bd69dafb7419db518110dbbd8385e9f2b8d2fd000f917fc8fa4f401b04f798d"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Order-2.5.xsd",
+    "bytes": 54971,
+    "sha256": "e620c3a34468b04c04874d9600d19d78b39d354d83d3879158bab7420126d85c"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-OrderCancellation-2.5.xsd",
+    "bytes": 26487,
+    "sha256": "36889fecb2be434efd020f893c5e2343bc10c341ac6249113f730794a9f44c54"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-OrderChange-2.5.xsd",
+    "bytes": 54382,
+    "sha256": "3f06a04c41ea4a56c420735e4b938ec6c1292495fcc6931a7eb2e7eb7db71586"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-OrderResponse-2.5.xsd",
+    "bytes": 61120,
+    "sha256": "e51bea159f6a3b6068b4a71c373346cba8af2f92aaf192fd5b2bc8f48ad6d851"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-OrderResponseSimple-2.5.xsd",
+    "bytes": 32582,
+    "sha256": "337995daaded4f6148f4d5a3c6910eea485b6e70e491782d35a65fe67bf29fde"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-PackingList-2.5.xsd",
+    "bytes": 26134,
+    "sha256": "faf0eccf4a8769d38d9d17dd5d2a06bd195f387fbd54e099bb484848802bc176"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-PriorInformationNotice-2.5.xsd",
+    "bytes": 35888,
+    "sha256": "c6552d42b37bbdca0e1a47b56084a77b39040c551494fbdf0ba0a054c6da4bc4"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProcurementStatus-2.5.xsd",
+    "bytes": 34714,
+    "sha256": "543b5ff1e66227aee82ad9194252deec0f66ac4432ac6c64bf228c2445b127bb"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProcurementStatusRequest-2.5.xsd",
+    "bytes": 23146,
+    "sha256": "20333ccee37a423f53b4ab9d02c6e6eb143c830b93f5cc217f7cc496c56de0c5"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProductActivity-2.5.xsd",
+    "bytes": 23522,
+    "sha256": "b1e30b3f1839c546ae98bf92763a8e5d1162c35efbddc03a4bf5832e6fced738"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProofOfReexportation-2.5.xsd",
+    "bytes": 24800,
+    "sha256": "7c2dd8720e3a9bb4a07964986dd1bc4e3223eb63297a1d1f0898249a04c002e7"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProofOfReexportationReminder-2.5.xsd",
+    "bytes": 29706,
+    "sha256": "1bb0d02e4f3928349c2444f30386a7ae178673c4fe3b7ace9c2d5d112e95cc35"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ProofOfReexportationRequest-2.5.xsd",
+    "bytes": 23801,
+    "sha256": "92bd0d91b996dc597f4062a90394f8e017a0c4f1059aec38c155a7e58b3ca2ac"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-PurchaseReceipt-2.5.xsd",
+    "bytes": 39073,
+    "sha256": "fc8183ebdaf6c266368198c3b928a1aeac8481e009c69e25ee7380f9701d58ae"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-QualificationApplicationRequest-2.5.xsd",
+    "bytes": 32684,
+    "sha256": "226a0fef6b6d3f0f1c317a2d23a17c5bb330b7c28bb4e46cd0453d8b44d25664"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-QualificationApplicationResponse-2.5.xsd",
+    "bytes": 35881,
+    "sha256": "cbbfc5bff190fc0059431004888be637fb2a3ab47106075b2f96fb572f11de9e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Quotation-2.5.xsd",
+    "bytes": 36137,
+    "sha256": "0641bdd186067ae865e68f7f716374c077e123c1bb53538281089c99497a5abf"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-ReceiptAdvice-2.5.xsd",
+    "bytes": 33748,
+    "sha256": "9db38193564168d94b85473fa9f7f6f5a2933a0a73bfbb394d5ae67cf3543441"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Reminder-2.5.xsd",
+    "bytes": 45959,
+    "sha256": "eae04bd4bb870b47c28e06de2a48f7d2da2d4a2cca223fc21e2306bd0f7f6e8e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-RemittanceAdvice-2.5.xsd",
+    "bytes": 34601,
+    "sha256": "036c64bde594c4c03481c2b0635485187a49772882d08a7279a382ef40b816d8"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-RequestForQuotation-2.5.xsd",
+    "bytes": 32955,
+    "sha256": "cf936f07e73ef02ca0ac46d806081027a088a3297413789d523d1b42c2d1e58c"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-RetailEvent-2.5.xsd",
+    "bytes": 31213,
+    "sha256": "63c600d091391227887ec40497b8491ea5f16f92303c8563017f641709af365a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-SelfBilledCreditNote-2.5.xsd",
+    "bytes": 70713,
+    "sha256": "4feae4b9d614ef6eadde90db47418b898b3ab52d3ccc9e9a5ca3d075748033b8"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-SelfBilledInvoice-2.5.xsd",
+    "bytes": 72077,
+    "sha256": "ca99a9664771edf0bbb723d9e5994f3e48ccc79fcd0c26d798e3731e186f4845"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Statement-2.5.xsd",
+    "bytes": 37060,
+    "sha256": "c61e3d8b7dae4b7db2876eaf522f9eebd44e86169d80c3c988600641e3513fd6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-StockAvailabilityReport-2.5.xsd",
+    "bytes": 25453,
+    "sha256": "88490bf36513010a5a4c0ad0f1bc6a97b622831bcfe0595da55ecb545e286fa0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Tender-2.5.xsd",
+    "bytes": 30468,
+    "sha256": "73648197ace1a62e6d55cbd9cbaf3e3cf3b04a2297f6b8ce751f3a8b8598fc88"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TenderContract-2.5.xsd",
+    "bytes": 30942,
+    "sha256": "de5247d7bb690915f07ec92a79a0a58e132875959654628ab20c5ccf40145d49"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TendererQualification-2.5.xsd",
+    "bytes": 24424,
+    "sha256": "43082d2eb85534274338d9141aec6ff378d3ab067f07d5b97da925c68d7e62ed"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TendererQualificationResponse-2.5.xsd",
+    "bytes": 24856,
+    "sha256": "2aee0bb4d79cd0f29df15b693b764c37fabe370c018f9acfce38e74cf43b8f21"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TenderReceipt-2.5.xsd",
+    "bytes": 23867,
+    "sha256": "9b62bcae03fcaa204ffbd00ea85ffcc95062c08c40ae1f26418f379f90aca8d0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TenderStatus-2.5.xsd",
+    "bytes": 35875,
+    "sha256": "d5b2c8da52b25fbba856d4c06491a971095f79447d2c933c4813888d72195461"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TenderStatusRequest-2.5.xsd",
+    "bytes": 23397,
+    "sha256": "e67db9d122456a7b64941fe9826e5e0737af57fb53323327edb7b3d2170f702e"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TenderWithdrawal-2.5.xsd",
+    "bytes": 24384,
+    "sha256": "bbee26c88660c0763b0ef8b3775386ffe7c5ea2dea8a4c42e3dd302a5c0901b6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TradeItemLocationProfile-2.5.xsd",
+    "bytes": 25609,
+    "sha256": "7313b6dcf5decf6fc9c8626a1f56195885880c454ee6e029b040240ba8a7e17a"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransitCustomsDeclaration-2.5.xsd",
+    "bytes": 35719,
+    "sha256": "8239986e4fd1ba8c2b64d6c773e1a10871843f113b63189de38b8c4417535348"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportationStatus-2.5.xsd",
+    "bytes": 35021,
+    "sha256": "211a64c9912e245910ce0501c299135dd7545af508ea5b540a5399979bd9f098"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportationStatusRequest-2.5.xsd",
+    "bytes": 29742,
+    "sha256": "9d6d6713fd6cdfc46a66255ffbafcf46eb38d5daa24bbda8b51a5a1f2d916586"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportExecutionPlan-2.5.xsd",
+    "bytes": 49277,
+    "sha256": "81dd7c56a8f413a504a011c1ce4f0256535253ed882ada18aa21da265c88ba79"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportExecutionPlanRequest-2.5.xsd",
+    "bytes": 46493,
+    "sha256": "a7a8234ade0fd525292b528986644d98f3fbc1b2c7e5111c76b522e9c5efc3d0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportProgressStatus-2.5.xsd",
+    "bytes": 24777,
+    "sha256": "97fc45ea1d6b270693dd9b08d9d3737f0ed116eea74fbab84cd03b7b9a8cd801"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportProgressStatusRequest-2.5.xsd",
+    "bytes": 21483,
+    "sha256": "2f3f1466d4d91f695ebb14e817905255728916d3b7891539d5b6a136061f4ad2"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportServiceDescription-2.5.xsd",
+    "bytes": 26868,
+    "sha256": "2be7e63ca0d2531974b08000a17827163c71e96918d8da254ac726cdafa5daa6"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-TransportServiceDescriptionRequest-2.5.xsd",
+    "bytes": 22934,
+    "sha256": "3316fa8d08a875e866d5b644714776d9481b7568643ad932ed1f7274a4a7e0ea"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-UnawardedNotification-2.5.xsd",
+    "bytes": 25509,
+    "sha256": "a91c5b48e269d7cad41bb874136c38c5eb0a5c3962df8ad8a8abe071ad95f051"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-UnsubscribeFromProcedureRequest-2.5.xsd",
+    "bytes": 23014,
+    "sha256": "93f37544eb8f32f250088f291e40110d2e0b1f0e981f99eaafbc78e9eb360ca5"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-UnsubscribeFromProcedureResponse-2.5.xsd",
+    "bytes": 23905,
+    "sha256": "295b54b591bc1f258abfeef107d16493ca27cff1d28ece9d21427c0fa77bb813"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-UtilityStatement-2.5.xsd",
+    "bytes": 30195,
+    "sha256": "a4ca99f0850b57cf164ef03e2e74e46c2f86838ec3b8c52d34ea162ee4021a17"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-WasteMovement-2.5.xsd",
+    "bytes": 28783,
+    "sha256": "a59ff9e907635fa63339b99965ec073b21416414d4fe0dd9f3c2f3e55fe61b29"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-WasteNotification-2.5.xsd",
+    "bytes": 25745,
+    "sha256": "9a2a9dd74af1e60c8d00f66e26a099d9630f3d54e5707e0eff3dc8fcb3f66d43"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-Waybill-2.5.xsd",
+    "bytes": 38419,
+    "sha256": "55dc346a14ead8b3ab5eefa2101fc0cccd19d4cca6e68f8da214d2fca61c4918"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-WeightStatement-2.5.xsd",
+    "bytes": 22150,
+    "sha256": "f65e36ffccdcb1283664185e2b6632f822373c796d39e264d483603080692ce0"
+  },
+  {
+    "archivo": "ubl-2.5/maindoc/UBL-WorkReport-2.5.xsd",
+    "bytes": 30132,
+    "sha256": "1d524f22267f4e10ce638f8387713621e57b8984ecd0e3fe45311fe1be479fa2"
+  },
+  {
+    "archivo": "Validaciones_Factura_Electronica.pdf",
+    "bytes": 424948,
+    "sha256": "4a7c7a4af02d20efb03ae3ea65dfa7f34cee8bffb73b99b30e0cb6cd4cfa85c9"
+  },
+  {
+    "archivo": "wsdl_xsd_20261029.zip",
+    "bytes": 30364,
+    "sha256": "6af2c90fcc26bef76e41fa1752fae14e01f757a998feb11b96e04ed3dde4c0f9"
+  }
+]
