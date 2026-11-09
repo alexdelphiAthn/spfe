@@ -1,8 +1,9 @@
-﻿# SPFE: documentación y evaluador Delphi nativo
+﻿# SPFE: documentación, evaluador y generadores Delphi nativos
 
 Biblioteca experimental para evaluar en Delphi las reglas públicas de
-EN 16931, acompañada de documentación técnica del SPFE, esquemas UBL y
-pruebas reproducibles.
+EN 16931 y para generar los mensajes UBL 2.5 del SPFE (factura del
+Anexo I, estados del Anexo II y sobres ebMS3), acompañada de
+documentación técnica del SPFE, esquemas UBL y pruebas reproducibles.
 
 **No es un validador completo ni certificado del SPFE o de EN 16931:2026.**
 El catálogo implementado procede de `validation-1.3.17`: EN 2017+A1 sobre
@@ -13,9 +14,9 @@ presencia no amplía automáticamente la cobertura del evaluador.
 
 | Ruta | Contenido |
 |---|---|
-| [src/delphi](src/delphi) | Evaluador, navegación XML y catálogo Pascal |
-| [tests/delphi](tests/delphi) | 20 tests DUnitX y ejecutable de contraste |
-| [scripts](scripts) | Compilación, extracción y contraste de referencia |
+| [src/delphi](src/delphi) | Evaluador, generadores UBL/ebMS3, navegación XML y catálogo Pascal |
+| [tests/delphi](tests/delphi) | 35 tests DUnitX y ejecutable de contraste |
+| [scripts](scripts) | Compilación, extracción y contrastes de referencia y XSD |
 | [docs/spfe](docs/spfe/README.md) | Documentación AEAT/BOE, UBL 2.5 y EN |
 | [docs/ARQUITECTURA.md](docs/ARQUITECTURA.md) | API, límites y funcionamiento |
 | [docs/VALIDACION.md](docs/VALIDACION.md) | Evidencias y límites de las pruebas |
@@ -69,8 +70,49 @@ end;
 
 La API es síncrona. Integrarla en un trabajador en segundo plano y medir
 su impacto; no ejecutarla dentro de la emisión ni de una transacción fiscal.
-No hay cola persistente, interfaz de usuario, acceso a BD, generador UBL
-ni cliente SOAP en este repositorio.
+No hay cola persistente, interfaz de usuario, acceso a BD ni transporte
+HTTP en este repositorio: los generadores producen documentos y sobres, y
+el envío con TLS mutuo corresponde a la aplicación que los integre.
+
+## Generar mensajes SPFE desde Delphi
+
+`inSpfeGeneradorUbl` produce el UBL 2.5 `Invoice` del alta de factura del
+Anexo I; `inSpfeGeneradorRespuesta`, los `ApplicationResponse` de anulación
+y de los ocho estados del Anexo II; `inSpfeEbms3` construye el sobre
+SOAP 1.2 con cabecera `eb:Messaging`, el cuerpo multipart con los UBL como
+adjuntos `cid:` y trocea las respuestas y los SOAP Fault, según los WSDL y
+ejemplos oficiales de `docs/spfe`. `inSpfeMapeos` traduce los códigos del
+Anexo I (país, unidades UN/ECE, medios de pago UNTDID 4461).
+
+```pascal
+oGenerador := TGeneradorUblSpfe.Create;
+try
+  sXml := oGenerador.Generar(oFactura); // TFacturaSpfe ya normalizada
+finally
+  FreeAndNil(oGenerador);
+end;
+sSobre := TEbms3Spfe.ConstruirSobre(sNif,
+  'urn:cen.eu:en16931:submitinvoice', 'SUBMITINVOICE',
+  ['altaFacturas.xml'], sMessageId, sConversationId);
+```
+
+Los importes se reciben ya formateados: el generador no redondea ni
+recalcula. Las pruebas contrastan las facturas generadas con el evaluador
+EN nativo (la normal y la rectificativa superan la capa EN salvo las
+divergencias documentadas del perfil SPFE frente a EN 2017+A1: la
+retención solo hace fallar la regla del importe debido, BR-CO-16, y las
+referencias de rectificativa disparan UBL-SR-43), y con los XSD de
+UBL 2.5 mediante:
+
+```powershell
+./scripts/contrastar_xsd_generados.ps1 -Plataforma Win64
+```
+
+Queda pendiente de contraste con el servicio `ValidationInvoice` del
+entorno PRE (requiere certificado): hijos exactos de
+`CollectionInvoiceLine` en la retención, contenido de `SenderParty` y
+`ReceiverParty` en los estados, y los valores de `eb:Service`/`eb:Action`
+de cada servicio, de los que solo SUBMITINVOICE está en los ejemplos.
 
 ## Regenerar el catálogo
 

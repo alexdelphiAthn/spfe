@@ -1,14 +1,25 @@
 ﻿# Validación y límites de la evidencia
 
 La copia preparada para publicación se ha compilado con los compiladores
-37.0 de Delphi para Win64 y Win32. Pasan los 20 tests DUnitX por plataforma,
+37.0 de Delphi para Win64 y Win32. Pasan los 35 tests DUnitX por plataforma,
 sin tests ignorados, errores, fallos ni fugas reportadas por el runner.
 La compilación usa las DCU suministradas de RTL/DUnitX y no recompila terceros.
 
-Los tests cubren los 19 ejemplos europeos, campos obligatorios, espacios de
-nombres, cuantificadores, precisión decimal, redondeos positivos y negativos,
-límites de representación, Unicode literal/referenciado/CDATA y errores.
-Incluyen regresiones de evaluación lógica y diferencias de versión.
+Los tests del evaluador cubren los 19 ejemplos europeos, campos obligatorios,
+espacios de nombres, cuantificadores, precisión decimal, redondeos positivos
+y negativos, límites de representación, Unicode literal/referenciado/CDATA y
+errores. Incluyen regresiones de evaluación lógica y diferencias de versión.
+
+Los tests de los generadores contrastan las facturas generadas con el propio
+evaluador EN (la normal y la rectificativa superan la capa EN, salvo las
+divergencias documentadas del perfil SPFE frente a EN 2017+A1: con retención
+solo falla BR-CO-16 y cada referencia de rectificativa dispara UBL-SR-43),
+los mensajes de estado del Anexo II, el escapado XML, los mapeos de códigos
+del Anexo I, el sobre ebMS3 y el troceo multipart con SOAP Fault. Los XML
+generados validan contra los XSD de UBL 2.5 con
+`scripts/contrastar_xsd_generados.ps1` (validador XSD de .NET). Ese
+contraste es sintáctico y EN 2017+A1: no acredita las validaciones propias
+del SPFE, pendientes del servicio ValidationInvoice del entorno PRE.
 
 ## Contraste previo del mismo núcleo
 

@@ -97,6 +97,18 @@ resourcestring
     'La función requiere cero o un valor';
   rsSpfeLaOperacionRequiereUn =
     'La operación requiere un decimal';
+  rsSpfeAtributosSinPareja =
+    'Atributos sin pareja nombre y valor';
+  rsSpfeCierreSinElemento =
+    'Cierre sin elemento abierto';
+  rsSpfeElementosSinCerrar =
+    'Quedan elementos sin cerrar';
+  rsSpfePaisSinCorrespondencia =
+    'País numérico sin correspondencia alfa-2: ';
+  rsSpfeCodigoRespuestaDesconocido =
+    'Código de respuesta SPFE desconocido: ';
+  rsSpfeMotivoRechazoDesconocido =
+    'Motivo de rechazo desconocido: ';
 
 implementation
 
