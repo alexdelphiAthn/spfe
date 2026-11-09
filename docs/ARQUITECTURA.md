@@ -44,6 +44,23 @@ para contrastar el ejemplo europeo; SPFE seguirá usando Invoice también en
 rectificativas.
 
 
+## Generadores UBL y ebMS3
+
+`inSpfeGeneradorUbl` (factura del Anexo I), `inSpfeGeneradorRespuesta`
+(anulación y estados del Anexo II) e `inSpfeEbms3` (sobre SOAP 1.2 con
+cabecera `eb:Messaging`, multipart `cid:` y troceo de respuestas y Fault)
+comparten el mismo criterio: entrada ya normalizada en registros con los
+códigos del Anexo (los importes llegan formateados con punto decimal; no
+se redondea ni se recalcula), salida como cadena XML con escapado propio
+(`inSpfeEscritorXml`), sin estado global, UI, BD ni red. `inSpfeMapeos`
+traduce país numérico, unidades UN/ECE y medios de pago UNTDID 4461, y
+valida motivos de rechazo y códigos de respuesta.
+
+El transporte HTTP con TLS mutuo y la persistencia de MessageId y
+ConversationId pertenecen a la aplicación integradora. Los puntos aún no
+contrastados con el entorno PRE están marcados en las cabeceras de las
+unidades y en el README.
+
 ## Integración
 
 El ejecutor en segundo plano, la cola persistente y sus límites de recursos

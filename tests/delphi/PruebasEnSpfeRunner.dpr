@@ -6,7 +6,7 @@ program PruebasEnSpfeRunner;
 
 uses
   System.SysUtils, DUnitX.TestFramework, DUnitX.Loggers.Console,
-  PruebasEnSpfe;
+  PruebasEnSpfe, PruebasGeneradorSpfe;
 
 var
   oEjecutor: ITestRunner;
