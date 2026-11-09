@@ -1,4 +1,4 @@
-# Contraste de los XML generados con los XSD de UBL 2.5 (herramienta de
+﻿# Contraste de los XML generados con los XSD de UBL 2.5 (herramienta de
 # desarrollo; usa el validador XSD de .NET incluido en PowerShell).
 # 1. Ejecuta el runner DUnitX con SPFE_SALIDA_GENERADOS para exportar los
 #    documentos de ejemplo del generador (factura normal, con retención y
