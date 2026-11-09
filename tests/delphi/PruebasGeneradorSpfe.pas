@@ -34,6 +34,7 @@ type
     [Test] procedure RechazarCodigoDeRespuestaDesconocido;
     [Test] procedure RechazarMotivoDeRechazoDesconocido;
     [Test] procedure ConstruirSobreEbms3Completo;
+    [Test] procedure EnvolverFacturaParaValidacionPre;
     [Test] procedure TrocearRespuestaMultipart;
     [Test] procedure ReconocerSoapFault;
     [Test] procedure MapearCodigosDelAnexo;
@@ -528,6 +529,34 @@ begin
       'Body');
     Assert.IsNotNull(oNodo);
     Assert.IsNull(oNodo.FirstChild);
+  finally
+    FreeAndNil(oXml);
+  end;
+end;
+
+procedure TPruebasGeneradorSpfe.EnvolverFacturaParaValidacionPre;
+var
+  sSobre: string;
+  oXml: TXmlNativoSpfe;
+  oCuerpo: TDomNode;
+begin
+  // ValidationInvoice (solo PRE) lleva la factura directamente en el
+  // body SOAP, sin ebMS ni adjuntos, segun su WSDL y el catalogo.
+  sSobre := TEbms3Spfe.EnvolverFacturaParaValidacion(
+    Generar(FacturaNormal));
+  // Una sola declaración XML: la de la factura queda retirada.
+  Assert.AreEqual(1, Integer((sSobre.Length -
+    sSobre.Replace('<?xml', '').Length) div Length('<?xml')));
+  oXml := TXmlNativoSpfe.Create;
+  try
+    oXml.Cargar(sSobre);
+    Assert.AreEqual('Envelope',
+      string(oXml.Documento.DocumentElement.LocalName));
+    oCuerpo := BuscarElemento(oXml.Documento.DocumentElement, EspacioSoap,
+      'Body');
+    Assert.IsNotNull(oCuerpo);
+    Assert.IsNotNull(oCuerpo.FirstChild);
+    Assert.AreEqual('Invoice', string(oCuerpo.FirstChild.LocalName));
   finally
     FreeAndNil(oXml);
   end;

@@ -108,11 +108,25 @@ UBL 2.5 mediante:
 ./scripts/contrastar_xsd_generados.ps1 -Plataforma Win64
 ```
 
-Queda pendiente de contraste con el servicio `ValidationInvoice` del
-entorno PRE (requiere certificado): hijos exactos de
-`CollectionInvoiceLine` en la retención, contenido de `SenderParty` y
-`ReceiverParty` en los estados, y los valores de `eb:Service`/`eb:Action`
-de cada servicio, de los que solo SUBMITINVOICE está en los ejemplos.
+Los `eb:Action` de los ocho servicios ebMS están tomados de
+`CatalogoServicios.pdf` y constan en `inSpfeEbms3` (del `eb:Service` solo
+está documentado el URN de la remisión). `ValidationInvoice` (solo PRE) no
+usa ebMS: es SOAP 1.2 document/literal con la factura directamente en el
+body, y se contrasta con un certificado electrónico del almacén del
+usuario mediante:
+
+```powershell
+./scripts/validar_en_pre.ps1 -Huella <huella del certificado>
+```
+
+En noviembre de 2026 el endpoint `ws/ValidationInvoiceSOAP` del PRE
+exterior respondía con un Fault «404 … Desactivada temporalmente» tras
+aceptar el TLS mutuo (el nombre alternativo del catálogo,
+`InvoiceValidationSOAP`, no está desplegado y remite al formulario de
+habilitaciones). Hasta que la AEAT lo reactive quedan sin contrastar:
+hijos exactos de `CollectionInvoiceLine` en la retención, contenido de
+`SenderParty` y `ReceiverParty` en los estados y los URN de `eb:Service`
+del resto de servicios.
 
 ## Regenerar el catálogo
 

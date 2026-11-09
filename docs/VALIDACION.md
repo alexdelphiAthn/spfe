@@ -1,7 +1,7 @@
 ﻿# Validación y límites de la evidencia
 
 La copia preparada para publicación se ha compilado con los compiladores
-37.0 de Delphi para Win64 y Win32. Pasan los 35 tests DUnitX por plataforma,
+37.0 de Delphi para Win64 y Win32. Pasan los 36 tests DUnitX por plataforma,
 sin tests ignorados, errores, fallos ni fugas reportadas por el runner.
 La compilación usa las DCU suministradas de RTL/DUnitX y no recompila terceros.
 
@@ -20,6 +20,13 @@ generados validan contra los XSD de UBL 2.5 con
 `scripts/contrastar_xsd_generados.ps1` (validador XSD de .NET). Ese
 contraste es sintáctico y EN 2017+A1: no acredita las validaciones propias
 del SPFE, pendientes del servicio ValidationInvoice del entorno PRE.
+
+El intento de contraste real (`scripts/validar_en_pre.ps1`, noviembre de
+2026) verificó el TLS mutuo con certificado FNMT de persona física y la
+ruta `ws/ValidationInvoiceSOAP` del PRE exterior, que respondió con un
+Fault SOAP «404 … Desactivada temporalmente»: el servicio estaba apagado
+por la AEAT, de modo que las reglas propias del SPFE siguen sin
+contrastar. Las respuestas quedan en `build/pre/` al repetir el envío.
 
 ## Contraste previo del mismo núcleo
 
