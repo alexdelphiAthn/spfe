@@ -1,0 +1,50 @@
+﻿{
+  "tipo": "evidencia de desarrollo previa a la publicación",
+  "compilador": "dcc64/dcc32 37.0, DCU RTL/DUnitX suministradas",
+  "asertos": 982,
+  "contextos": 104,
+  "instrucciones": 3576,
+  "resultados": {
+    "WIN64": {
+      "casos": 2263,
+      "comparables": 1656,
+      "error_conversion_referencia": 607,
+      "discrepancias": 0,
+      "dunitx": {
+        "encontrados": 20,
+        "correctos": 20,
+        "fallidos": 0,
+        "errores": 0,
+        "ignorados": 0,
+        "fugas_reportadas": 0
+      },
+      "ejecutable_sha256": "d3b8667125ebe8f0f67d3d049cce2652018a59ae60d043e1c2ce5c866772db1a",
+      "ejemplos_oficiales_ms": {
+        "min": 19,
+        "mediana": 28,
+        "max": 172
+      }
+    },
+    "WIN32": {
+      "casos": 2263,
+      "comparables": 1656,
+      "error_conversion_referencia": 607,
+      "discrepancias": 0,
+      "dunitx": {
+        "encontrados": 20,
+        "correctos": 20,
+        "fallidos": 0,
+        "errores": 0,
+        "ignorados": 0,
+        "fugas_reportadas": 0
+      },
+      "ejecutable_sha256": "c07dd51d0bf5327e78fcb33afb4f76091cf9f24dd2f4a232f396d0ffb3d36ef2",
+      "ejemplos_oficiales_ms": {
+        "min": 18,
+        "mediana": 26,
+        "max": 176
+      }
+    }
+  },
+  "cobertura_semantica_2026_completa": false
+}
